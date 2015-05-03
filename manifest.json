@@ -1,0 +1,12 @@
+{
+  "pluginVersion": 1,
+  "name": "CryptoValue",
+  "myVersion": "v.1.0",
+  "shortDescription": "Crypto Valuation",
+  "infoUrl": "https://github.com/lemonhead23/cryptovalue",
+  "startPage": "p_cryptovalue",
+  "nrsVersion": "1.5.0",
+  "deactivated": false
+}
+
+

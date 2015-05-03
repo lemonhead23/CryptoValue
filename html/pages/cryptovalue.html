@@ -1,0 +1,113 @@
+<div id="p_cryptovalue_page" class="page">
+    <section class="content-header">
+        <h1>CryptoValue Plugin</h1>
+    </section>
+    <section class="content">       
+
+        <div class="data-container data-loading">
+			<span id="coininfo"></span>
+			<div class="row">
+			<div class="col-md-4 col-xs-6">
+                <div class="small-box bg-aqua">
+                    <div class="inner">
+                        <h3><span class="" id="accountBalance">?</span> <span style="font-size:10px;">NXT</span></h3>
+                        <br>
+                    </div>
+                    <div class="icon"><i class="fa fa-briefcase"></i></div>
+                    <span class="small-box-footer"><span data-i18n="accountBalance">Account Balance</span></span>
+				</div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="small-box bg-aqua">
+                    <div class="inner">
+                        <h3><span class="" id="accountBalanceValue">?</span> <span style="font-size:10px;" id="baseLabelAccount">USD</span></h3>
+                        <br>
+                    </div>
+                    <div class="icon"><i class="fa fa-signal"></i></div>
+                    <span class="small-box-footer"><span data-i18n="accountBalanceValue">Account Balance</span></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="small-box bg-aqua">
+                    <div class="inner">
+                        <h3><span class="" id="accountPlusAssets">?</span> <span style="font-size:10px;" id="accountPlusAssetsLabel">USD</span></h3>
+                        <br>
+                    </div>
+                    <div class="icon"><i class="fa fa-briefcase"></i></div>
+                    <span class="small-box-footer"><span data-i18n="accountPlusAssets">Total (NXT + Assets)</span></span>
+                </div>
+            </div>
+			</div>
+			<div class="row">
+            <div class="col-md-4 col-xs-6">
+                <div class="small-box bg-aqua">
+                    <div class="inner">
+                        <h3><span class="" id="totalValue">?</span> <span style="font-size:10px;">NXT</span></h3>
+                        <br>
+                    </div>
+                    <div class="icon"><i class="fa fa-briefcase"></i></div>
+                    <span class="small-box-footer"><span data-i18n="totalValue">Asset Value</span></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="small-box bg-yellow">
+                    <div class="inner">
+                        <h3><span class="" id="totalValueBase">?</span> <span style="font-size:10px;" id="totalValueBaseLabel">USD</span></h3>
+                        <br>
+                    </div>
+                    <div class="icon"><i class="fa fa-signal"></i></div>
+                    <span class="small-box-footer"><span data-i18n="totalValueBase">Asset Value</span></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="small-box bg-yellow">
+                    <div class="inner">
+                        <h3><span class="" id="base">?</span> <span style="font-size:10px;" id="baseLabel">USD</span></h3>
+                        <br>
+                    </div>
+                    <div class="icon"><i class="fa fa-bank"></i></div>
+                    <span class="small-box-footer"><span data-i18n="base">Value of 1NXT</span></span>
+                </div>
+            </div>
+			</div>
+			Base: 
+			<div class="btn-group" role="group" aria-label="Choose Base Currency">
+			  <button type="button" class="btn btn-base" value="btc">BTC</button>
+			  <button type="button" class="btn btn-base" value="usd">USD</button>
+			  <button type="button" class="btn btn-base" value="eur">EUR</button>
+			  <button type="button" class="btn btn-base" value="cny">CNY</button>
+			  <button type="button" class="btn btn-base" value="gbp">GBP</button>
+			  <!--<input type="text" id="baseinput" placeholder="Username" aria-describedby="basic-addon1">
+			  <button type="button" class="btn btn-base" value="input">Input</button>
+			  -->
+			</div>
+            <table class="table table-striped table-hover" id="p_cryptovalue_table">
+                <thead>
+                <tr>
+                    <th>Asset</th>
+                    <th>AssetID</th>
+                    <th>Quantity</th>
+                    <th>Valuation in NXT</th>
+                    <th>Valuation in USD</th>
+                </tr>
+                </thead>
+                <tbody>
+                
+                </tbody>
+            </table>
+
+            <div class="data-loading-container"><img src="img/loading_indicator.gif" alt="Loading..." width="32" height="32" /></div>
+            <div class="data-empty-container"><p>Blockchain status could not be loaded.</p></div>
+        </div>
+        
+        <p style="font-size:10px;">
+			<hr>
+            Plugin by:&nbsp; <span id="p_cryptovalue_startup_date_time" style="font-style:italic;"><a class="show_account_modal_action user-info" data-user="NXT-GMFM-NZWG-TCTU-4W6ZT" href="#">lemonhead</a></span> <br>
+            Data provided by:&nbsp; <span id="p_cryptovalue_startup_date_time" style="font-style:italic;"><a href="http://cryptocoincharts.info" target="_blank">http://cryptocoincharts.info</a></span>
+        </p>
+        
+        <script>
+
+		</script>
+    </section>
+</div>
